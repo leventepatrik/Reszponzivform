@@ -1,0 +1,43 @@
+main{
+border: 2px solid black;
+padding: 0;
+margin: 0;
+}
+nav{
+    border: 1px solid black;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightgrey;
+
+} 
+img{
+    width: 100%;
+    margin: auto;
+    pad: 5px;
+   
+
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    border: red;
+
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1f 1fr 1fr;
+    gap: 5px;
+}
+li:hover {
+    background-color: red;
+    color: grey;
+    
+}
+#kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul li{
+    background-color: red;
+}
